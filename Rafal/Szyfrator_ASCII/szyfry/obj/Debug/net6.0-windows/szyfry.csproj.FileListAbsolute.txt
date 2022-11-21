@@ -1,0 +1,42 @@
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.exe
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.deps.json
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.runtimeconfig.json
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.pdb
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.csproj.AssemblyReference.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry_MarkupCompile.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry_MarkupCompile.lref
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.g.resources
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.AssemblyInfoInputs.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.AssemblyInfo.cs
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.csproj.CoreCompileInputs.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\refint\szyfry.dll
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.pdb
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.genruntimeconfig.cache
+C:\Users\4pTP Gr2\Desktop\desktopowe\szyfry\szyfry\obj\Debug\net6.0-windows\ref\szyfry.dll
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.exe
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.deps.json
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.runtimeconfig.json
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.dll
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\bin\Debug\net6.0-windows\szyfry.pdb
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.csproj.AssemblyReference.cache
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry_MarkupCompile.cache
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry_MarkupCompile.lref
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.g.resources
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.AssemblyInfoInputs.cache
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.AssemblyInfo.cs
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.csproj.CoreCompileInputs.cache
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.dll
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\refint\szyfry.dll
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.pdb
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\szyfry.genruntimeconfig.cache
+C:\Users\uzytkownik\Documents\GitHub\Czubi\2022_23\szyfry\szyfry\obj\Debug\net6.0-windows\ref\szyfry.dll
