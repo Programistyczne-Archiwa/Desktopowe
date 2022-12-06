@@ -1,0 +1,71 @@
+﻿<Window x:Class="Spotify.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spotify"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600" ResizeMode="NoResize"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="385"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <materialDesign:Card Margin="16">
+                    <StackPanel>
+                        <Border CornerRadius="5" Height="200" Margin="16 16 16 0">
+                            <Border.Background>
+                                <ImageBrush ImageSource="./assets/note.png" Stretch="Fill"></ImageBrush>
+                            </Border.Background>
+                        </Border>
+                        <Button x:Name="btn_play_music" Content="{materialDesign:PackIcon play}" Style="{DynamicResource MaterialDesignIconButton}" Width="40"
+                                Height="40" Margin="16 16 16 0" Click="btn_play_music_Click"></Button>
+                        <Button x:Name="btn_pause_music" Content="{materialDesign:PackIcon pause}" Style="{DynamicResource MaterialDesignIconButton}" Width="40"
+                                Height="40" Margin="16 16 16 0" Click="btn_pause_music_Click" Visibility="Collapsed"></Button>
+                        <Slider x:Name="slider_timer" Width="200" Margin="16" ValueChanged="slider_timer_ValueChanged"></Slider>
+                        <Label x:Name="lbl_timer" Content="0:00 / 0:00" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                </materialDesign:Card>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="360"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <materialDesign:Card Margin="16">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Button x:Name="btn_add_song_to_list" Grid.Row="0" Content="Dodaj piosenke do listy" Margin="16 0 16 0" Click="btn_add_song_to_list_Click"></Button>
+                        <ListView x:Name="list_music" Grid.Row="1" ItemsSource="{Binding filePaths}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding name}" TextWrapping="Wrap" HorizontalAlignment="Center"></TextBlock>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                </materialDesign:Card>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

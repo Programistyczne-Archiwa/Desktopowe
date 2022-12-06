@@ -25,3 +25,30 @@ E:\Unity\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaP
 E:\Unity\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\ref\MediaPlayer.dll
 E:\Unity\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\Assets\note.png
 E:\Unity\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer_Content.g.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\MediaPlayer.exe
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\assets\note.png
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\MediaPlayer.deps.json
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\MediaPlayer.runtimeconfig.json
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\MediaPlayer.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\MediaPlayer.pdb
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.csproj.AssemblyReference.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer_Content.g.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer_MarkupCompile.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer_MarkupCompile.lref
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\App.baml
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.g.resources
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.AssemblyInfoInputs.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.AssemblyInfo.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.csproj.CoreCompileInputs.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.csproj.CopyComplete
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\refint\MediaPlayer.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.pdb
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\MediaPlayer.genruntimeconfig.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\MediaPlayer\MediaPlayer\obj\Debug\net6.0-windows\ref\MediaPlayer.dll
