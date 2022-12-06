@@ -1,0 +1,56 @@
+﻿<Window x:Class="MediaPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MediaPlayer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600" ResizeMode="NoResize"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="360"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <materialDesign:Card Margin="16">
+                    <StackPanel>
+                        <Border CornerRadius="5" Height="200" Margin="16 16 16 0">
+                            <Border.Background>
+                                <ImageBrush ImageSource="./assets/note.png" Stretch="Fill"></ImageBrush>
+                            </Border.Background>
+                        </Border>
+                        <Button x:Name="btn_play_music" Content="{materialDesign:PackIcon play}" Style="{DynamicResource MaterialDesignIconButton}" Width="40"
+                                Height="40" Margin="16 16 16 0" Click="btn_play_music_Click"></Button>
+                        <Slider Width="200" Margin="16"></Slider>
+                    </StackPanel>
+                </materialDesign:Card>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="360"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <materialDesign:Card Margin="16">
+                    <ListView x:Name="list_music" ItemsSource="{Binding filePaths}">
+                    </ListView>
+                </materialDesign:Card>
+            </Grid>
+            
+        </StackPanel>
+    </Grid>
+</Window>
