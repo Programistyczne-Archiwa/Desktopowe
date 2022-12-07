@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Spotify"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="600" ResizeMode="NoResize"
+        Title="MainWindow" Height="450" Width="900" ResizeMode="NoResize"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         TextElement.FontWeight="Regular"
@@ -19,31 +19,56 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel>
+        <StackPanel Grid.Column="0">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="385"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <materialDesign:Card Margin="16" Padding="16">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="110"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Label x:Name="lbl_volume" Grid.Column="0" Content="Volume 100%:"></Label>
+                        <Slider x:Name="slider_volume" Grid.Column="1" Maximum="100" Value="100" ValueChanged="slider_volume_ValueChanged"></Slider>
+                        <Label x:Name="lbl_speed_ratio" Grid.Column="0" Grid.Row="1" Content="Speed Ratio 1.0:"></Label>
+                        <Slider x:Name="slider_speed_ratio" Grid.Column="1" Grid.Row="1" Maximum="50" Minimum="5" Value="10" ValueChanged="slider_speed_ratio_ValueChanged"></Slider>
+                    </Grid>
+                </materialDesign:Card>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="420"></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
                 <materialDesign:Card Margin="16">
-                    <StackPanel>
+                    <StackPanel Grid.Row="1">
                         <Border CornerRadius="5" Height="200" Margin="16 16 16 0">
                             <Border.Background>
                                 <ImageBrush ImageSource="./assets/note.png" Stretch="Fill"></ImageBrush>
                             </Border.Background>
                         </Border>
+                        <Label x:Name="lbl_song_name" Content="Wybierz piosenke" Margin="16 10 16 0" HorizontalAlignment="Center"></Label>
                         <Button x:Name="btn_play_music" Content="{materialDesign:PackIcon play}" Style="{DynamicResource MaterialDesignIconButton}" Width="40"
-                                Height="40" Margin="16 16 16 0" Click="btn_play_music_Click"></Button>
+                                Height="40" Margin="16 5 16 0" Click="btn_play_music_Click"></Button>
                         <Button x:Name="btn_pause_music" Content="{materialDesign:PackIcon pause}" Style="{DynamicResource MaterialDesignIconButton}" Width="40"
-                                Height="40" Margin="16 16 16 0" Click="btn_pause_music_Click" Visibility="Collapsed"></Button>
-                        <Slider x:Name="slider_timer" Width="200" Margin="16" ValueChanged="slider_timer_ValueChanged"></Slider>
-                        <Label x:Name="lbl_timer" Content="0:00 / 0:00" HorizontalAlignment="Center"></Label>
+                                Height="40" Margin="16 5 16 0" Click="btn_pause_music_Click" Visibility="Collapsed"></Button>
+                        <Slider x:Name="slider_timer" Width="200" Margin="16" ValueChanged="slider_timer_ValueChanged" Style="{DynamicResource MaterialDesignSlider}"></Slider>
+                        <Label x:Name="lbl_timer" Content="00:00:00 / 00:00:00" HorizontalAlignment="Center"></Label>
                     </StackPanel>
                 </materialDesign:Card>
             </Grid>
         </StackPanel>
-        <StackPanel Grid.Column="1">
+        <StackPanel Grid.Column="2">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="360"></RowDefinition>
@@ -56,7 +81,7 @@
                             <RowDefinition></RowDefinition>
                         </Grid.RowDefinitions>
                         <Button x:Name="btn_add_song_to_list" Grid.Row="0" Content="Dodaj piosenke do listy" Margin="16 0 16 0" Click="btn_add_song_to_list_Click"></Button>
-                        <ListView x:Name="list_music" Grid.Row="1" ItemsSource="{Binding filePaths}">
+                        <ListView x:Name="list_music" Grid.Row="1" ItemsSource="{Binding filePaths}" SelectionChanged="list_music_SelectionChanged">
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <TextBlock Text="{Binding name}" TextWrapping="Wrap" HorizontalAlignment="Center"></TextBlock>

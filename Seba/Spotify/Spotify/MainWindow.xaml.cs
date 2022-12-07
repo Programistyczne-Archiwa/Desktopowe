@@ -33,12 +33,14 @@ namespace Spotify
             InitializeComponent();
             list_music.ItemsSource = filePaths;
             timer.Interval = TimeSpan.FromSeconds(1);
+            slider_volume.Interval = 1;
+            slider_speed_ratio.Interval = 1;
         }
         private void timer_Tick(object sender, EventArgs e)
         {
             if((mediaPlayer.Source != null) && (mediaPlayer.NaturalDuration.HasTimeSpan))
             {
-                lbl_timer.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"), mediaPlayer.NaturalDuration.TimeSpan.ToString(@"mm\:ss"));
+                lbl_timer.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"hh\:mm\:ss"), mediaPlayer.NaturalDuration.TimeSpan.ToString(@"hh\:mm\:ss"));
                 slider_timer.Minimum = 0;
                 slider_timer.Maximum = mediaPlayer.NaturalDuration.TimeSpan.TotalSeconds;
                 slider_timer.Value = mediaPlayer.Position.TotalSeconds;
@@ -48,7 +50,6 @@ namespace Spotify
         {
             if(list_music.SelectedIndex != -1)
             {
-                mediaPlayer.Open(new Uri(filePaths[list_music.SelectedIndex].path));
                 mediaPlayer.Play();
                 timer.Tick += timer_Tick;
                 timer.Start();
@@ -77,13 +78,32 @@ namespace Spotify
         private void slider_timer_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             mediaPlayer.Position = TimeSpan.FromSeconds(slider_timer.Value);
-            lbl_timer.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"), mediaPlayer.NaturalDuration.TimeSpan.ToString(@"mm\:ss"));
+            lbl_timer.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"hh\:mm\:ss"), mediaPlayer.NaturalDuration.TimeSpan.ToString(@"hh\:mm\:ss"));
+        }
+
+        private void slider_volume_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            lbl_volume.Content = "Volume " + Math.Round(slider_volume.Value).ToString() + "%:";
+            mediaPlayer.Volume = slider_volume.Value / 100;
+        }
+        
+        private void slider_speed_ratio_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            lbl_speed_ratio.Content = "Speed Ratio " + Math.Round(slider_speed_ratio.Value / 10, 1).ToString() + ":";
+            mediaPlayer.SpeedRatio = slider_speed_ratio.Value / 10;
+        }
+
+        private void list_music_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            mediaPlayer.Open(new Uri(filePaths[list_music.SelectedIndex].path));
+            lbl_song_name.Content = filePaths[list_music.SelectedIndex].name;
         }
     }
     class Song
     {
         public string path { get; set; }
         public string name { get; set; }
+        public bool isFavorite { get; set; }
         public Song(string path, string name)
         {
             this.path = path;

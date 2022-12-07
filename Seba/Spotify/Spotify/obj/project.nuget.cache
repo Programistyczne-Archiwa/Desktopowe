@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sdJM2VydpuTQHDnymrFrdzCwQiQBfRYJq6ALOltp/5yuIhyHaAMa/XnQ9beFPKWtHTt+NAQbNO1SaQ4sn6HrDQ==",
+  "dgSpecHash": "n39OrR3J/U25HbkbA/PmDi7jmB5Eassv6yISf5UOOGqUTeA2QeRqsrdO5LobBCVCGBhE7YmozP00KMiCKmbcxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\4pTP gr2\\Desktop\\Desktopowe\\Seba\\Spotify\\Spotify\\Spotify.csproj",
+  "projectFilePath": "E:\\Unity\\Desktopowe\\Seba\\Spotify\\Spotify\\Spotify.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\4pTP gr2\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
-    "C:\\Users\\4pTP gr2\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512"
+    "C:\\Users\\MrProfessor\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
+    "C:\\Users\\MrProfessor\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512"
   ],
   "logs": []
 }
