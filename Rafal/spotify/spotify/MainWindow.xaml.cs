@@ -32,12 +32,14 @@ namespace spotify
         {
             InitializeComponent();
 
-            string[] filenames = Directory.GetFiles("C:\\Users\\4pTP Gr2\\Desktop\\desktopowe\\spotify");
+            string[] filenames = Directory.GetFiles("C:\\Users\\4pTP Gr2\\Desktop\\desktopowe\\spotify\\music");
+
             
-            for(int i = 0; i < filenames.Length; i++)
+            for (int i = 0; i < filenames.Length; i++)
             {
                 string[] tab1 = filenames[i].Split('\\');
                 listbox.Items.Add(tab1[tab1.Length-1]);
+                
             }
             
             mediaPlayer.Volume = sliderus.Value;
@@ -49,9 +51,16 @@ namespace spotify
         void timer_Tick(object sender, EventArgs e)
         {
             if (mediaPlayer.Source != null)
+            {
+
                 lblStatus.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"), mediaPlayer.NaturalDuration.TimeSpan.ToString(@"mm\:ss"));
+                double duration = Convert.ToDouble(mediaPlayer.NaturalDuration.TimeSpan.Seconds);
+                sliderD.Maximum = duration;
+            }
             else
+            {
                 lblStatus.Content = "No file selected...";
+            }
         }
         private void btnOpenAudioFile_Click(object sender, RoutedEventArgs e)
         {
@@ -84,6 +93,21 @@ namespace spotify
         private void sliderus_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             mediaPlayer.Volume = sliderus.Value;
+        }
+
+        private void listbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            int index = listbox.SelectedIndex;
+            mediaPlayer.Open(new Uri("C:\\Users\\4pTP Gr2\\Desktop\\desktopowe\\spotify\\music\\" + listbox.Items[index]));
+            
+            mediaPlayer.Play();
+            
+
+        }
+
+        private void sliderD_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            
         }
     }
 }

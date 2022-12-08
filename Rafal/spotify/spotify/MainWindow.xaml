@@ -17,17 +17,16 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Button Grid.Row="0" Grid.Column="1" Name="btnOpenAudioFile" Click="btnOpenAudioFile_Click" Margin="83,10,83,98">Open Audio file</Button>
-        <ListBox x:Name="listbox" Grid.Column="2" Grid.RowSpan="3" >
-            
+        <ListBox x:Name="listbox" Grid.Column="2" Grid.RowSpan="3" SelectionChanged="listbox_SelectionChanged" >
+
         </ListBox>
-        <Label Name="lblStatus" Content="Not playing..." HorizontalContentAlignment="Center" Margin="68,15,67,88" Grid.Column="1" Grid.Row="1" />
+        <Label Name="lblStatus" Content="Not playing..." HorizontalContentAlignment="Center" Margin="68,15,67,88" Grid.Column="1" />
 
-        <Button x:Name="btnPlay" Click="btnPlay_Click" Content="Play" Margin="10,44,192,69" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="btnPause" Margin="100,44,100,69" Click="btnPause_Click" Content="Pause" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="btnStop" Click="btnStop_Click" Content="Stop" Margin="192,44,10,69" Grid.Column="1" Grid.Row="1"/>
-
-        <Label Margin="42,81,162,32" Grid.Column="1" Grid.Row="1">VOLUME</Label>
-        <Slider x:Name="sliderus" Minimum="0" Value="0.5" Maximum="1" Width="120" ValueChanged="sliderus_ValueChanged" Grid.Column="1" Margin="10,106,130,10" Grid.Row="1"/>
+        <Button x:Name="btnPlay" Click="btnPlay_Click" Content="Play" Margin="10,44,192,69" Grid.Column="1"/>
+        <Button x:Name="btnPause" Margin="100,44,100,69" Click="btnPause_Click" Content="Pause" Grid.Column="1"/>
+        <Button x:Name="btnStop" Click="btnStop_Click" Content="Stop" Margin="192,44,10,69" Grid.Column="1"/>
+        <Slider  x:Name="sliderD" Grid.Column="1" ValueChanged="sliderD_ValueChanged"></Slider>
+        <Label  Grid.Column="1" Width="60" Height="30" VerticalAlignment="Center" Margin="39,0,161,0" Grid.Row="1">VOLUME</Label>
+        <Slider x:Name="sliderus" Minimum="0" Value="0.5" Maximum="1" Width="120" ValueChanged="sliderus_ValueChanged" Grid.Column="1" Margin="10,97,130,10" Grid.Row="1"/>
     </Grid>
 </Window>
