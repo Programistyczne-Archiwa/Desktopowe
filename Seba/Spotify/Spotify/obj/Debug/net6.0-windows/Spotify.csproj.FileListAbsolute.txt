@@ -1,0 +1,56 @@
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.csproj.AssemblyReference.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify_MarkupCompile.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify_MarkupCompile.lref
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.exe
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.deps.json
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.runtimeconfig.json
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.pdb
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\App.baml
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.g.resources
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.AssemblyInfoInputs.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.AssemblyInfo.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.csproj.CoreCompileInputs.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.csproj.CopyComplete
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\refint\Spotify.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.pdb
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.genruntimeconfig.cache
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\ref\Spotify.dll
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\assets\note.png
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify_Content.g.cs
+C:\Users\4pTP gr2\Desktop\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\assets\PAKUJE WALIZE (Official Video).mp3
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.exe
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\assets\note.png
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\assets\PAKUJE WALIZE (Official Video).mp3
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.deps.json
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.runtimeconfig.json
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.dll
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\Spotify.pdb
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.csproj.AssemblyReference.cache
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\App.g.cs
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify_Content.g.cs
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify_MarkupCompile.cache
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify_MarkupCompile.lref
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\App.baml
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.g.resources
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.AssemblyInfoInputs.cache
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.AssemblyInfo.cs
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.csproj.CoreCompileInputs.cache
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.csproj.CopyComplete
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.dll
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\refint\Spotify.dll
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.pdb
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\Spotify.genruntimeconfig.cache
+E:\Unity\Desktopowe\Seba\Spotify\Spotify\obj\Debug\net6.0-windows\ref\Spotify.dll

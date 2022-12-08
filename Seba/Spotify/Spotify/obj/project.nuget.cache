@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "n39OrR3J/U25HbkbA/PmDi7jmB5Eassv6yISf5UOOGqUTeA2QeRqsrdO5LobBCVCGBhE7YmozP00KMiCKmbcxg==",
+  "success": true,
+  "projectFilePath": "E:\\Unity\\Desktopowe\\Seba\\Spotify\\Spotify\\Spotify.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MrProfessor\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
+    "C:\\Users\\MrProfessor\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

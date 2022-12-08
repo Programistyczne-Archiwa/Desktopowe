@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a6kNGFdDk5Z3b8vLxXTUx+Xrrnv0j+NwIcKc35o/124z7rEF6pau/HGd++N8JXftfzlX5DTv/5A39V/GqoqnGw==",
+  "dgSpecHash": "9j3kSkF4GuLTH2vIngcwmoYBZlCHaccBEk4tNlgnDgpFJDVq2a3ffWpmKVaXmbqthGbt4J716VRrUNAe3JpRmg==",
   "success": true,
-  "projectFilePath": "E:\\Unity\\Desktopowe\\Seba\\AudioPlayer\\MediaPlayer\\MediaPlayer.csproj",
+  "projectFilePath": "C:\\Users\\4pTP gr2\\Desktop\\Desktopowe\\Seba\\MediaPlayer\\MediaPlayer\\MediaPlayer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MrProfessor\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
-    "C:\\Users\\MrProfessor\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512"
+    "C:\\Users\\4pTP gr2\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
+    "C:\\Users\\4pTP gr2\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512"
   ],
   "logs": []
 }
