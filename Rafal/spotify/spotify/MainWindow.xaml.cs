@@ -52,10 +52,16 @@ namespace spotify
         {
             if (mediaPlayer.Source != null)
             {
-
+                try
+                {
                 lblStatus.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"), mediaPlayer.NaturalDuration.TimeSpan.ToString(@"mm\:ss"));
-                double duration = Convert.ToDouble(mediaPlayer.NaturalDuration.TimeSpan.Seconds);
+                double duration = Convert.ToDouble(mediaPlayer.NaturalDuration.TimeSpan.TotalSeconds);
                 sliderD.Maximum = duration;
+                sliderD.Value = mediaPlayer.Position.TotalSeconds;
+                }catch(System.InvalidOperationException)
+                {
+
+                }
             }
             else
             {
@@ -107,7 +113,7 @@ namespace spotify
 
         private void sliderD_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            
+            mediaPlayer.Position = TimeSpan.FromSeconds(sliderD.Value);
         }
     }
 }

@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:spotify"
+        xmlns:gif ="https://github.com/XamlAnimatedGif/XamlAnimatedGif"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="10">
@@ -17,16 +18,30 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <ListBox x:Name="listbox" Grid.Column="2" Grid.RowSpan="3" SelectionChanged="listbox_SelectionChanged" >
-
+        <ListBox x:Name="listbox"   Grid.Column="2" Grid.RowSpan="3" SelectionChanged="listbox_SelectionChanged" Background="#FFE0DCDC" >
         </ListBox>
-        <Label Name="lblStatus" Content="Not playing..." HorizontalContentAlignment="Center" Margin="68,15,67,88" Grid.Column="1" />
-
-        <Button x:Name="btnPlay" Click="btnPlay_Click" Content="Play" Margin="10,44,192,69" Grid.Column="1"/>
-        <Button x:Name="btnPause" Margin="100,44,100,69" Click="btnPause_Click" Content="Pause" Grid.Column="1"/>
-        <Button x:Name="btnStop" Click="btnStop_Click" Content="Stop" Margin="192,44,10,69" Grid.Column="1"/>
-        <Slider  x:Name="sliderD" Grid.Column="1" ValueChanged="sliderD_ValueChanged"></Slider>
-        <Label  Grid.Column="1" Width="60" Height="30" VerticalAlignment="Center" Margin="39,0,161,0" Grid.Row="1">VOLUME</Label>
-        <Slider x:Name="sliderus" Minimum="0" Value="0.5" Maximum="1" Width="120" ValueChanged="sliderus_ValueChanged" Grid.Column="1" Margin="10,97,130,10" Grid.Row="1"/>
-    </Grid>
+        
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Name="lblStatus" Content="Not playing..." Grid.Row="0" VerticalAlignment="Center" Grid.Column="1" />
+            <Button x:Name="btnPlay" Width="50" Height="20" Grid.Row="1" Click="btnPlay_Click" Content="Play" Grid.Column="0"/>
+            <Button x:Name="btnPause" Grid.Row="1" Width="50" Height="20" Click="btnPause_Click" Content="Pause" Grid.Column="1"/>
+            <Button x:Name="btnStop"  Width="50" Height="20" Grid.Row="1" Click="btnStop_Click" Content="Stop" Grid.Column="2"/>
+            <Slider  x:Name="sliderD" Grid.ColumnSpan="3" Height="25" VerticalAlignment="Top"  Grid.Column="0" Grid.Row="0" ValueChanged="sliderD_ValueChanged"></Slider>
+       
+            
+        </Grid>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <Label   Width="60" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center">VOLUME</Label>
+            <Slider x:Name="sliderus" Minimum="0" Value="0.5" Maximum="1" Width="120" HorizontalAlignment="Center" Height="20" ValueChanged="sliderus_ValueChanged" />
+        </StackPanel>
+        </Grid>
 </Window>
