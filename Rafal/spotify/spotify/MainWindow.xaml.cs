@@ -117,5 +117,13 @@ namespace spotify
         {
             mediaPlayer.Position = TimeSpan.FromSeconds(sliderD.Value);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Gridus.Background = Brushes.Gray;
+            lblStatus.Foreground = Brushes.White;
+            
+            lbl.Foreground = Brushes.White;
+        }
     }
 }

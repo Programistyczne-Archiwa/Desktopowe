@@ -7,7 +7,7 @@
         xmlns:gif ="https://github.com/XamlAnimatedGif/XamlAnimatedGif"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="10">
+    <Grid Margin="10" x:Name="Gridus">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
@@ -31,7 +31,7 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-            <Label Name="lblStatus" Content="Not playing..." Grid.Row="0" VerticalAlignment="Center" Grid.Column="1" />
+            <Label Name="lblStatus" Content="Not playing..." Grid.Row="0" VerticalAlignment="Center" Grid.Column="1" FontWeight="Bold" />
             <Button x:Name="btnPlay" Width="50" Height="20" Grid.Row="1" Click="btnPlay_Click" Content="Play" Grid.Column="0"/>
             <Button x:Name="btnPause" Grid.Row="1" Width="50" Height="20" Click="btnPause_Click" Content="Pause" Grid.Column="1"/>
             <Button x:Name="btnStop"  Width="50" Height="20" Grid.Row="1" Click="btnStop_Click" Content="Stop" Grid.Column="2"/>
@@ -39,8 +39,13 @@
        
             
         </Grid>
+        <StackPanel Grid.Column="0" Grid.Row="1">
+            <Button Height="45" FontSize="25" Click="Button_Click"> DARK THEME</Button>
+            <Button Height="45" FontSize="25"> LIGHT THEME</Button>
+            <Button Height="45" FontSize="25"> BACKGROUND</Button>
+        </StackPanel>
         <StackPanel Grid.Column="1" Grid.Row="1">
-            <Label   Width="60" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center">VOLUME</Label>
+            <Label x:Name="lbl"   Width="60" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold">VOLUME</Label>
             <Slider x:Name="sliderus" Minimum="0" Value="0.5" Maximum="1" Width="120" HorizontalAlignment="Center" Height="20" ValueChanged="sliderus_ValueChanged" />
         </StackPanel>
         </Grid>
