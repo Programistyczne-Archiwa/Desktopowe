@@ -32,7 +32,7 @@ namespace spotify
         {
             InitializeComponent();
 
-            string[] filenames = Directory.GetFiles("C:\\Users\\4pTP Gr2\\Desktop\\desktopowe\\spotify\\music");
+            string[] filenames = Directory.GetFiles("C:\\Users\\4pTP Gr2\\Documents\\GitHub\\Desktopowe\\Rafal\\spotify\\music");
 
             
             for (int i = 0; i < filenames.Length; i++)
@@ -104,7 +104,9 @@ namespace spotify
         private void listbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int index = listbox.SelectedIndex;
-            mediaPlayer.Open(new Uri("C:\\Users\\4pTP Gr2\\Desktop\\desktopowe\\spotify\\music\\" + listbox.Items[index]));
+
+            // Poniższą ścieżkę należy zmienić na pełną ścieżkę do folderu 'music', zależnie od tego gdzie na komputerze znajduje się folder z projektem 
+            mediaPlayer.Open(new Uri("C:\\Users\\4pTP Gr2\\Documents\\GitHub\\Desktopowe\\Rafal\\spotify\\music\\" + listbox.Items[index]));
             
             mediaPlayer.Play();
             
