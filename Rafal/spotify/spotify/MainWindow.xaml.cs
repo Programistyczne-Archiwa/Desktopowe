@@ -118,12 +118,38 @@ namespace spotify
             mediaPlayer.Position = TimeSpan.FromSeconds(sliderD.Value);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+       
+
+       
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Gridus.Background = Brushes.Gray;
-            lblStatus.Foreground = Brushes.White;
-            
-            lbl.Foreground = Brushes.White;
+            int id = dropdown.SelectedIndex;
+            switch(id)
+            {
+                case 0:
+                    BrushConverter bc = new BrushConverter();
+                    Gridus.Background = (Brush)bc.ConvertFrom("#292828");
+                    listbox.Background = (Brush)bc.ConvertFrom("#474242");
+                    listbox.Foreground = Brushes.White;
+                    lblStatus.Foreground = Brushes.White;
+
+                    lbl.Foreground = Brushes.White;
+                    break;
+                case 1:
+
+                    BrushConverter ac = new BrushConverter();
+                    Gridus.Background = Brushes.White;
+                    listbox.Background = (Brush)ac.ConvertFrom("#FFE0DCDC");
+                    listbox.Foreground = Brushes.Black;
+                    lblStatus.Foreground = Brushes.Black;
+                    lbl.Foreground = Brushes.Black;
+                    break;
+            }
+        }
+        private void Window_Loaded()
+        {
+            pictureBoxLoading.ImageLocation = "polishcow.gif";
         }
     }
 }
